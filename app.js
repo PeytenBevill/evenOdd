@@ -16,8 +16,10 @@ function handleSubmit() {
 
      if(usersWord.length % 2 === 0) {
      evenList.appendChild(newListItem)
+     document.getElementById("even").style.color = "orange"
     } else {
       oddList.appendChild(newListItem)
+      document.getElementById("odd").style.color = "blue"
     }
     
     

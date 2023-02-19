@@ -3,6 +3,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Gajraj One', cursive;
+  margin-top: 15%;
+  background-color: rgb(102, 101, 101);
 }
 
 form {
@@ -11,4 +14,8 @@ form {
     align-items: center;
     flex-direction: column;
   
+}
+
+h1 {
+  font-size: 45px
 }
